@@ -50,7 +50,7 @@ ACTION=="add", SUBSYSTEM=="input", ENV{ID_VENDOR_ID}=="3344", ENV{ID_MODEL_ID}==
 * Save and exit nano. 
 
 
-**Create the executibe**
+**Create the executable**
 You may have noticed we referred to an executable .sh file above. Here's how to create this: 
 
 * First, find the joystick event symlink (only the joystick though, throttle is not needed) by running:
